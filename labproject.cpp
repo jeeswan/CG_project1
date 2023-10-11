@@ -71,7 +71,6 @@ void timer(int value) {
 
 
 void reshape(GLsizei width, GLsizei height) {  
-    // Compute aspect ratio of the new window
     if (height == 0) height = 1;                
     GLfloat aspect = (GLfloat)width / (GLfloat)height;
 
